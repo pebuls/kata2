@@ -1,5 +1,11 @@
-import javafx.scene.control.Cell;
+package pebuls.kata2;
+
+
 import org.junit.Test;
+
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
 
 public class BoardTest {
 
@@ -14,6 +20,7 @@ public class BoardTest {
 
         assertEquals(0, neighbors.size());
     }
+
 
 
 }
